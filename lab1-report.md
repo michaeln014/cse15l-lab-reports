@@ -9,6 +9,6 @@ Upon opening you'll see something like this on VSCode
 
 After opening up VSCode, create a new Terminal by going to "Terminal" on top, selecting it, and clicking New Terminal. Using " Ctrl+Shift+\` " will work too.
 
-Once at the terminal, to connect online we use the `ssh` command
+Once at the terminal, to connect online we use the `ssh` command to log into a course account under an `ieng6.ucsd.edu` email such as `cs15lko@ieng6.ucsd.edu`.
 
 
