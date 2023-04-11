@@ -12,7 +12,7 @@ Once at the terminal, we remotely connect using the `ssh` command to log into a 
 
 ![Image](0410_1419_36.png)
 
-Some issue can arise from logging on here. One issue is if your account password was recently set, it may not register on the terminal and not allow you to login with your cs15l account. If this happens, waiting until the password is registered will solve the issue. If there are still issues, check if your username and password are put in correctly
+Some issue can arise from logging on here. One issue is if your account password was recently set, it may not register on the terminal and not allow you to login with your cs15l account. If this happens, waiting until the password is registered will solve the issue. If there are still issues, check if your username and password are put in correctly. Also don't copy and paste the password in as the terminal may not register the password if it's pasted in instead of being typed.
 
 An alternative account can be used to log in with `ssh` if there are still issues even trying those solutions. This can be done using your UCSD account and password instead. When using your UCSD account, use `@ieng6.ucsd.edu` instead of `@ucsd.edu`. 
 ## Step 3: Trying Some Commands
