@@ -8,7 +8,15 @@ Upon opening you'll see something like this on VSCode
 
 After opening up VSCode, create a new Terminal by going to "Terminal" on top, selecting it, and clicking New Terminal. Using " Ctrl+Shift+\` " will work too.
 ## Step 2: Remotely Connecting
-Once at the terminal, we remotely connect using the `ssh` command to log into a course account under an `ieng6.ucsd.edu` email such as `cs15lsp23ko@ieng6.ucsd.edu`. This image is how it is done and what the result should be.
+Once at the terminal, we remotely connect using the `ssh` command to log into a course account under an `ieng6.ucsd.edu` email. To find your course account username, you go on this link and put in your username and student id:
+
+[https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
+
+Your username will be the account that starts with `cs15lsp23` such as such as `cs15lsp23ko`, the email to use to log in terminal will have `@ieng6.ucsd.edu` at the end of it. If a password has not been set up for the account yet, open and view this [pdf](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view?usp=share_link) to see how to set a password.
+
+After finding your account, log in using your cs15l email and newly set up password if it wasn't already set.
+
+This image shows how logging in is done and what the result should be.
 
 ![Image](0410_1419_36.png)
 
@@ -20,17 +28,17 @@ Here we can try commands on the terminal. The main commands are listed here:
 `pwd` `cd <path>` `ls <path>` `cat <path1> <path2>`
 Some commands that can be tried out are listed here:
 
-`cd ~`
+`cd ~` -changes the directory
 
 `cd`
 
-`ls -lat`
+`ls -lat` -reveals all files in the specified directory
 
 `ls -a`
 
-`cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+`cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/` -
 
-`cat /home/linux/ieng6/cs15lsp23/public/hello.txt`
+`cat /home/linux/ieng6/cs15lsp23/public/hello.txt` -
 
 Example of some commands run:
 ![Image](Code_0410_1421_57.png)
