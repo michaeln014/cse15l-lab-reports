@@ -98,4 +98,4 @@ The fix addresses the issue by having the `reversed` method update the values of
 
 ## Part 3
 
-Something I learned in lab in week 2 I didn't know before was how to run a web server. Before I didn't know how to run a web server on my own but with lab in week 2, I learned how to start one and add text or numbers to it.
+Something I learned in lab in week 2 I didn't know before was how to run a web server and how they ran. Before I didn't know how to run a web server on my own but with lab in week 2, but now I know how to make one and add text or numbers to it.
