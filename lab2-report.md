@@ -68,9 +68,9 @@ Input that doesn't induce failure:
   }
 ```
 
-The symptom:
+The symptom (output of JUnit tests for `testReversed2` and `testReversed`):
 
-
+![Image](Code_0424_1010_49.png)
 
 Code for method before fix:
 ```
@@ -95,3 +95,7 @@ Code for method fixed:
 
 Explanation:
 The fix addresses the issue by having the `reversed` method update the values of `newArray` with values of the current array `arr`, the bug was that the code was changing the values of `arr` with `newArray` changing every value of `arr` to be 0 since `newArray` was just created and doesn't have any values besides 0 assigned to it. With the change, it fixes this having `NewArray` being assigned the values of `arr` in reverse leading to a reversed array.
+
+## Part 3
+
+Something I learned in lab in week 2 I didn't know before was how to run a web server. Before I didn't know how to run a web server on my own but with lab in week 2, I learned how to start one and add text or numbers to it.
