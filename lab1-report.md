@@ -30,9 +30,9 @@ Some commands that can be tried out are listed here:
 
 `cd ~` -changes the directory from the current directory to the home directory.
 
-`ls -lat` - reveals the 
+`ls -lat` - shows main files and hidden files in directory with details such as information on size, ownership, and modification time.
 
-`ls -a` - 
+`ls -a` - shows files in directory including hidden files not usually seen when executing only ls/.
 
 `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/` - copies the hello.txt file into the home directory.
 
@@ -40,6 +40,18 @@ Some commands that can be tried out are listed here:
 
 Example of some commands run:
 ![Image](Code_0410_1421_57.png)
+
+The following commands in that screenshot are ran:
+
+`pwd` - shows current directory
+
+`ls /` - reveals files in / directory
+
+`cat /home/linux/ieng6/cs15lsp23/public/hello.txt` - prints what's in hello.txt file
+
+`cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/` - copies hello.txt file to home directory
+
+`ls -a` shows all files including hidden ones in directory
 
 To log out, use Ctrl + D hotkey or run `exit` in the terminal.
 
