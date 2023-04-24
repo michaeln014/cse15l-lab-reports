@@ -25,20 +25,18 @@ Some issue can arise from logging on here. One issue is if your account password
 An alternative account can be used to log in with `ssh` if there are still issues even trying those solutions. This can be done using your UCSD account and password instead. When using your UCSD account, use `@ieng6.ucsd.edu` instead of `@ucsd.edu`. 
 ## Step 3: Trying Some Commands
 Here we can try commands on the terminal. The main commands are listed here:
-`pwd` `cd <path>` `ls <path>` `cat <path1> <path2>`
+`pwd` which shows the current directory. `cd <path>` which changes the directory to the desired path, `ls <path>` which shows all the files in the specified directory, and `cat <path1> <path2>` which prints the files specified in `<path1>` and/or `<path2>`.
 Some commands that can be tried out are listed here:
 
-`cd ~` -changes the directory
+`cd ~` -changes the directory from the current directory to the home directory.
 
-`cd`
+`ls -lat` - reveals the 
 
-`ls -lat` -reveals all files in the specified directory
+`ls -a` - 
 
-`ls -a`
+`cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/` - copies the hello.txt file into the home directory.
 
-`cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/` -
-
-`cat /home/linux/ieng6/cs15lsp23/public/hello.txt` -
+`cat /home/linux/ieng6/cs15lsp23/public/hello.txt` - prints the contents of hello.txt.
 
 Example of some commands run:
 ![Image](Code_0410_1421_57.png)
