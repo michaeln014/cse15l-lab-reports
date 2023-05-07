@@ -1,4 +1,4 @@
 # CSE 15L Lab Report 3
 
 ## Researching Commands
-An alternative to using `-grep` can be done with 
+For the command `grep`, there are many command-line options for it. One option is  
