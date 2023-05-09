@@ -7,7 +7,7 @@ One option for `grep` is `-e`, which allows `grep` to look for lines based on a 
 
 ![Image](Code_0509_015201.png)
 
-![Image](Code_0509_015253.png)
+![Image](Code_0509_015340.png)
 
-
+Here the commands `grep -e on something.txt` and `grep -e o something.txt` are being executed.
 
