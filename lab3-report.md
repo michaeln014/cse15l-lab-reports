@@ -7,7 +7,11 @@ One option for `grep` is `-e`, which allows `grep` to look for lines based on a 
 
 ![Image](Code_0509_015201.png)
 
-![Image](Code_0509_015340.png)
+
 
 Here the commands `grep -e on something.txt` and `grep -e o something.txt` are being executed.
+
+Another option for `grep` is `-v`, it prompts `grep` to look for lines that don't have the specified input. For example in several lines of words, if `grep -v on something.txt` was called, it would look for every line that doesn't contain "on" including words that have "on" in it like "everyone". Two examples of `grep -v` being used are shown here:
+
+![Image](Code_0509_015340.png)
 
