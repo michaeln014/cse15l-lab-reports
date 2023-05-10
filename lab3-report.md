@@ -13,7 +13,11 @@ Here the commands `grep -e on something.txt` and `grep -e o something.txt` are b
 
 Another option for `grep` is `-v`, it prompts `grep` to look for lines that don't have the specified input. For example in several lines of words, if `grep -v on something.txt` was called, it would look for every line that doesn't contain "on" including words that have "on" in it like "everyone". Two examples of `grep -v` being used are shown here:
 
-![Image](Code_0509_015340.png)
+![Image](Code_0509_015318.png)
 
-![Image]
+In this picture, the commands `grep -v every something.txt` and `grep -v on something.txt` are called. The first command looks for every line that doesn't contain "every" in it and the second command looks for every line that doesn't contain "on" in it. This is useful to look for lines in a file that don't contain a specific character or word.
+
+A third command option for `grep` is `-n` which looks for a line based on given input and indicates the line number for each line that fits the input. Two examples of `grep -n` are seen here.
+
+![Image](Code_0509_015500.png)
 
