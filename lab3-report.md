@@ -15,3 +15,5 @@ Another option for `grep` is `-v`, it prompts `grep` to look for lines that don'
 
 ![Image](Code_0509_015340.png)
 
+![Image]
+
