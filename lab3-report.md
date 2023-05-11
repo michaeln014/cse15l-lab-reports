@@ -3,13 +3,11 @@
 ## Researching Commands
 The command `grep` searches for a line in a file based on the input given. There are many other command-line options for `grep`. 
 
-One option for `grep` is `-e`, which allows `grep` to look for lines based on a pattern given by the input. Two examples of this is shown here where `grep -e` is being used to look up words in a file text.
+One option for `grep` is `-i` which prompts the command to look for lines containing the given input ignoring whether they're upper case or not. Two examples of `grep -i` in action are seen here.
 
-![Image](Code_0510_1335_37.png)
+![Image](Code_0510_1720_45.png)
 
-![Image](Code_0510_0926_50.png)
-
-Here the commands `grep -e ev something.txt` and `grep -e on something.txt` are being executed. `grep -e ev something.txt` uses "ev" as a pattern to look for words with "ev" in it. And in `grep -e on something.txt`, it uses "on" as a pattern to look for lines containing it. This is useful for finding lines with specific 
+Here the commands `grep -e ev something.txt` and `grep -e on something.txt` are being executed. `grep -e ev something.txt` uses "ev" as a pattern to look for words with "ev" in it. And in `grep -e on something.txt`, it uses "on" as a pattern to look for lines containing it. This is useful for finding lines with complicated characters or 
 
 Another option for `grep` is `-v`, it prompts `grep` to look for lines that don't have the specified input. For example in several lines of words, if `grep -v on something.txt` was called, it would look for every line that doesn't contain "on" including words that have "on" in it like "everyone". Two examples of `grep -v` being used are shown here:
 
