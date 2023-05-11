@@ -9,7 +9,7 @@ One option for `grep` is `-e`, which allows `grep` to look for lines based on a 
 
 ![Image](Code_0510_0926_50.png)
 
-Here the commands `grep -e ev something.txt` and `grep -e on something.txt` are being executed.
+Here the commands `grep -e ev something.txt` and `grep -e on something.txt` are being executed. `grep -e ev something.txt` uses "ev" as a pattern to look for words with "ev" in it. And in `grep -e on something.txt`, it uses "on" as a pattern to look for lines containing it. This is useful for finding lines with specific 
 
 Another option for `grep` is `-v`, it prompts `grep` to look for lines that don't have the specified input. For example in several lines of words, if `grep -v on something.txt` was called, it would look for every line that doesn't contain "on" including words that have "on" in it like "everyone". Two examples of `grep -v` being used are shown here:
 
@@ -21,7 +21,7 @@ A third command option for `grep` is `-n` which looks for a line based on given 
 
 ![Image](Code_0509_015500.png)
 
-The first command, `grep -n e something.txt`, shows the line number of each line that has the character "e" in it. The second command, `grep -n o something.txt`, also outputs each line's line number. This is especially useful when looking for lines that have a specific character or word in a long text file or code file.
+The first command, `grep -n e something.txt`, shows the line number of each line that has the character "e" in it. The second command, `grep -n o something.txt`, also outputs each line's line number. This is especially useful when looking for lines that have a specific character or word in a long text file or code file and need to find what line number it is.
 
 A fourth command-line option that can be used with `grep` is `-c`. It doesn't output the lines that fit the given input, but instead outputs the total amount of lines that fit the given input. An example of `grep -c` in use for the following text file is:
 
@@ -38,5 +38,7 @@ A second example of `grep -c` is seen here.
 This second example, `grep -c h something.txt`, outputs the amount of lines with the character "h", being 2.
 
 This command is useful for times when someone wants to only look for the total amount of lines with a specific character, word, or words instead of every line containing that.
+
+
 
 
