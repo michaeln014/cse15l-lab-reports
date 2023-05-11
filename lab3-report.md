@@ -7,7 +7,7 @@ One option for `grep` is `-i` which prompts the command to look for lines contai
 
 ![Image](Code_0510_1720_45.png)
 
-Here the commands `grep -e ev something.txt` and `grep -e on something.txt` are being executed. `grep -e ev something.txt` uses "ev" as a pattern to look for words with "ev" in it. And in `grep -e on something.txt`, it uses "on" as a pattern to look for lines containing it. This is useful for finding lines with complicated characters or 
+Here the commands `grep -i "blood" something.txt` and `grep -i "water" something.txt` are being executed. `grep -i "blood" something.txt` looks for lines with the word "blood" in it and outputs the line "Blood is thicker than WATER?" even though blood is capitalized on that line. In `grep -i "water" something.txt`, the command looks for lines with the word water, and outputs the line "Blood is thicker than WATER?" even though water is in all caps on that line. This option is useful to look for every instance of a word in a file whether it is capitalized or not.
 
 Another option for `grep` is `-v`, it prompts `grep` to look for lines that don't have the specified input. For example in several lines of words, if `grep -v on something.txt` was called, it would look for every line that doesn't contain "on" including words that have "on" in it like "everyone". Two examples of `grep -v` being used are shown here:
 
