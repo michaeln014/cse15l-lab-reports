@@ -49,4 +49,4 @@ Step 9 Keys:
 `git commit -m "fixed ListExamples.java"<enter>`,
 `git push<enter>`
 
-For this step, I was able to use <ctrl> + r to find the command `git add --all. But for `git commit -m "fixed ListExamples.java` and `git push` I hadn't used those commands before so I typed them manually and only used the special key `<enter>` to run the command.
+For this step, I was able to use `<ctrl> + r` to find the command `git add --all`. But for `git commit -m "fixed ListExamples.java` and `git push` I hadn't used those commands before so I typed them manually and only used the special key `<enter>` to run the command.
